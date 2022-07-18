@@ -1,0 +1,225 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .img_title h1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner_left_img{
+        text-align: center;
+
+    }
+    .banner_mid_img {
+        margin: 45px auto !important;
+    }
+    .banner_left_img img {
+        margin-top: 0px;
+    }
+    .banner_mid_img img{
+        width: 300px;
+    }
+    .banner_mid_img {
+       margin: 0 auto;
+       text-align: center;
+    }
+    .mid_img_title h1 {
+        margin-top: 10px;
+        padding:0 10px;
+    }
+    .mid_buttons .btn {
+        padding: 8px 23px;
+    }
+    .img_title{
+        text-align: center !important;
+    }
+    .btn_yellows {
+        margin-left: 0;
+    }
+    .banner_area{
+        padding: 0 0;
+    }
+    .mtbsm{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .mtop1 {
+        top:0;
+    }
+    .mtsm0{
+        margin-top: 0 !important;
+    }
+    .footer{
+        text-align: center;
+        padding: 35px 0;
+    }
+    .footer_social {
+        text-align: center !important;
+    }
+    .footer_call{
+        margin: 20px 0 !important;
+    }
+    .fresh_fruts, .circle_food_sec{
+        padding: 80px 0;
+    }
+    .vote_us_btn span {
+        padding: 6px 28px;   
+    }
+    .brand_img img{
+        width: 200px !important;
+        margin: 30px 0;
+    }
+    .mbottom {
+        margin-top:20px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .img_title h1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner_left_img img {
+        margin-top: 0px;
+    }
+    .banner_mid_img img{
+        width: 300px;
+    }
+    .banner_mid_img {
+       margin: 0 auto;
+       text-align: center;
+    }
+    .btn_yellows {
+        margin-left: 0;
+    }
+    .banner_area{
+        padding: 0 0;
+    }
+    .footer{
+        padding: 35px 0;
+    }
+    .fresh_fruts, .circle_food_sec{
+        padding: 80px 0;
+    }
+    .brand_img img{
+        width: 200px !important;
+    }
+    .mbottom {
+        margin-top:20px;
+    }
+    .footer {
+        padding: 15px 0;
+    }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .img_title h1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .banner_left_img img {
+        margin-top: 0px;
+    }
+    .banner_mid_img img{
+        width: 300px;
+    }
+    .banner_mid_img {
+       margin: 0 auto;
+       text-align: center;
+    }
+    .btn_yellows {
+        margin-left: 0;
+    }
+    .banner_area{
+        padding: 0 0;
+    }
+    .footer{
+        padding: 35px 0;
+    }
+    .fresh_fruts, .circle_food_sec{
+        padding: 80px 0;
+    }
+    .brand_img img{
+        width: 200px !important;
+    }
+    .mbottom {
+        margin-top: 40px;
+    }
+    .cstm_design{
+        flex-direction: row !important;
+        padding: 50px 0;
+
+    }
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img_title h1 {
+        padding-left: 65px;
+        padding-right: 50px;
+    }
+    .banner_mid_img {
+        top: -45px;
+    }
+    .banner_mid_img img{
+        width: 375px;
+    }
+    .banner_area{
+        padding: 0 0;
+    }
+    .mid_img_title h1 {
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+    .mid_buttons .btn {
+        padding: 8px 22px;
+    }
+    .btn_yellows {
+        margin-left: 0px;
+    }
+
+
+    .footer{
+        padding: 35px 0;
+    }
+    .fresh_fruts, .circle_food_sec{
+        padding: 80px 0;
+    }
+    .brand_img img{
+        width: 200px !important;
+    }
+    .ff_wrapper {
+        padding: 15px 10px;
+    }
+ 
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .btn_yellows {
+        margin-left: 10px;
+    }
+    .banner_area{
+        padding: 0 0;
+    }
+    .footer{
+        padding: 35px 0;
+    }
+    .fresh_fruts, .circle_food_sec{
+        padding: 80px 0;
+    }
+    .brand_img img{
+        width: 200px !important;
+    }
+
+
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

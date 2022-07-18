@@ -1,0 +1,269 @@
+/* ========================GLOBAL STYLE CSS START HERE====================== */
+/* 
+developer:mohammadrahat
+designer:mohammadrahat
+admin:mohammaadrahat
+
+ */
+/* ============DEFAULT STYLE TYPHOGRAPHY AND COLOR============== */
+@font-face {
+    font-family:"YanoneKaffeesatz-Regular";
+    src: url(../fonts/YanoneKaffeesatz-Regular.ttf);
+}
+@font-face {
+    font-family:"YanoneKaffeesatz-Medium";
+    src: url(../fonts/YanoneKaffeesatz-Medium.ttf);
+}
+@font-face {
+    font-family:"YanoneKaffeesatz-SemiBold";
+    src: url(../fonts/YanoneKaffeesatz-SemiBold.ttf);
+}
+@font-face {
+    font-family:"YanoneKaffeesatz-Bold";
+    src: url(../fonts/YanoneKaffeesatz-Bold.ttf);
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #212529!important;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"YanoneKaffeesatz-Medium";
+}
+
+p, span, a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* ------------- header area css start------------- */
+.header_section{
+    padding:25px 0;
+    background: #fff;
+}
+.header_logo img{
+    width: 140px;
+}
+/* ------------- header area css end------------- */
+
+
+/* --------- banner css start---------- */
+.banner_area{
+    padding: 0 140px;
+}
+.banner_left_img img{
+    margin-top: 30px;
+}
+.img_title h1{
+    padding-left:120px;
+    padding-right: 120px;
+    font-size:26px;
+    line-height: 30px;
+}
+.banner_mid_img{
+    position: relative;
+    top: -62px;
+}
+.mid_img_title h1{
+    margin-top:30px;
+    font-size: 60px;
+    padding: 0 70px;
+}
+.mid_img_title h1 span{
+    font-size: 60px;
+    color: #63d470;
+}
+.mid_buttons{
+    margin-top: 40px;
+}
+.mid_buttons .btn{
+    padding:8px 35px;
+    background: #63d470;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    transition: .3s ease-in-out;
+}
+.btn_sky_blue:hover{
+    background: #fba51b;
+}
+.btn_yellows:hover{
+    background:#63d470 !important;
+}
+.btn_yellows{
+    background: #fba51b !important;
+    margin-left: 40px;
+}
+/* --------- banner css end---------- */
+
+/* ----------newslatter css start --------- */
+.newslatter{
+    padding: 80px 0;
+    background: #e9f2ef;
+
+}
+.signup_forms{
+    margin-top: 50px;
+}
+.signup_forms .form-control{
+    border: none;
+    background: #e9f2ef;
+    border-bottom: 2px solid #919191;
+    border-radius: 0;
+    text-align: center;
+    
+}
+.signup_forms .form-control:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #63d470;
+
+}
+.custom_submit_btn{
+    background: #63d470;
+    width: 150px;
+    color: #fff !important;
+    font-weight: 600;
+    border: 1px solid #63d470;
+    border-radius: 30px;
+}
+.custom_submit_btn:hover{
+    background: #35cd47;
+    border: 1px solid #63d470;
+}
+/* ----------newslatter css end --------- */
+
+/*----------- circle menu item name css start----------- */
+.circle_food_sec{
+    padding: 80px 140px;
+}
+.circle_mid_img img{
+
+}
+.ash_color span{
+    margin: 0 auto;
+}
+.ash_color2 span{
+    background: #978778 !important;
+    margin: 0 auto;
+}
+.red_color span{
+    background: #c00202 !important;   
+}
+.sky_color span{
+    background: #e0fee6 !important;
+}
+.yello_color span{
+    background: #fba51b !important;
+}
+.main_color span{
+    background: #63d470 !important;
+}
+.color_round_wrapper{}
+.color_round_wrapper span {
+    margin-right: 20px;
+	width: 70px;
+	height: 70px;
+	background: #c7b297;
+	border-radius: 50%;
+}
+.crt{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.crt h3{
+    margin-bottom: 0;
+}
+/*----------- circle menu item name css end----------- */
+
+/* ---------- vote for us css start----------- */
+.vote_for_us{
+    padding: 80px 0;
+    background: #e6cfe1;
+}
+.vote_for_us h2{
+    text-align: center;
+}
+.vote_us_btn{}
+.vote_us_btn span{
+    margin-top:25px;
+    background: #762283;
+    display: inline-block;
+    padding:6px 35px;
+    border-radius: 30px;
+    color: #d2d2d2;
+    transition: .4s ease-in-out;
+}
+.vote_us_btn span:hover{
+    background: #6a1378;
+  
+}
+.vote_us_btn span a{
+    color: #fff;
+    font-weight: 600;
+}
+/* ---------- vote for us css end----------- */
+
+/* ------- fresh fruit teas css start------------ */
+.fresh_fruts{
+    padding: 80px 140px;
+}
+.fruts_title{
+    margin-bottom:80px;
+}
+.ff_wrapper{
+    margin-top: 25px;
+    padding: 30px 25px;
+    background: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+}
+.f_f_img img{
+    overflow: hidden;
+    transition: .4s ease-in-out;
+    
+}
+.ff_wrapper:hover .f_f_img img{
+    transform: scale(1.1);
+}
+.mtop1{
+    position: relative;
+    top: -80px;
+}
+.mbottom{
+    position: relative;
+    margin-top: 80px;
+}
+.f_f_text{
+    margin-top: 20px;
+}
+/* ------- fresh fruit teas css end------------ */
+
+/* ------- order brand css start-------------- */
+.order_brand{
+    padding: 50px 0;
+    background:#e9f2ef ;
+}
+/* ------- order brand css end-------------- */
+
+/* ------------ footer css------------ */
+.footer{
+    padding:35px 140px;
+    background:#c8c7d9 ;
+}
+.footer_location p{
+    font-weight: 600;
+}
+.footer_call a{
+    color: #212529;
+    font-weight: 600;
+}
+.footer_social ul li a{
+    color: #212529;
+}
